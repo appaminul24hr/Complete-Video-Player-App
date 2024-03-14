@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#E0F2F1"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tahsan"
+            android:scaleType="centerCrop"
+            >
+
+        </ImageView>
+
+
+
+        <!-- ==========Album Code Start============== -->
+        <LinearLayout
+            android:id="@+id/laySong1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#B2DFDB"
+            android:padding="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/album"
+                    android:scaleType="centerCrop"
+                    >
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alo | আলো | Tahsan | Tahsan Lyrical Video 2019"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 4.34"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <!-- >>>>>>>>>>>>>>>>>>End Album code>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+        <!-- ==========Album Code Start============== -->
+        <LinearLayout
+            android:id="@+id/laySong2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#B2DFDB"
+            android:padding="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/album"
+                    android:scaleType="centerCrop"
+                    >
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="আমি সেই সুতো || Tahsan || Uddeshsho Nei ||"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 3.56"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <!-- >>>>>>>>>>>>>>>>>>End Album code>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+        <!-- ==========Album Code Start============== -->
+        <LinearLayout
+            android:id="@+id/laySong3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#B2DFDB"
+            android:padding="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/album"
+                    android:scaleType="centerCrop"
+                    >
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bindu Ami by Tahsan Khan"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 4.27"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <!-- >>>>>>>>>>>>>>>>>>End Album code>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+        <!-- ==========Album Code Start============== -->
+        <LinearLayout
+            android:id="@+id/laySong4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#B2DFDB"
+            android:padding="5dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/album"
+                    android:scaleType="centerCrop"
+                    >
+                </ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                >
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ke Tumi || কে তুমি || Tahsan |"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 4.52"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="5dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+        <!-- >>>>>>>>>>>>>>>>>>End Album code>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
